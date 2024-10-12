@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-file_path = 'D:/Imports_Exports_Dataset.csv'  # User-specified file path
+file_path = 'Imports_Exports_Dataset.csv'  # User-specified file path
 sample_df = pd.read_csv(file_path).sample(n=3001, random_state=55054)
 
 # Set up the Streamlit page configuration
